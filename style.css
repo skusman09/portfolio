@@ -13,9 +13,12 @@
     border: none;
     text-decoration: none;
     text-transform: capitalize;
+    transition: all .2s linear;
 }
 
-html {
+html,
+body {
+    height: 100%;
     font-size: 62.5%;
     overflow-x: hidden;
     scroll-behavior: smooth;
@@ -129,7 +132,7 @@ header .navbar a:active {
 .logo {
     position: relative;
     top: 5px;
-    right: -1px;
+    right: 1px;
     margin: auto;
     padding: auto;
     height: 55px;
@@ -455,5 +458,6 @@ header .navbar a:active {
     .heading {
         font-size: 4rem;
     }
+
 
 }
