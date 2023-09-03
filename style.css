@@ -290,6 +290,7 @@ header .navbar a:active {
     padding: 20px;
     color: rgba(161, 153, 233, 0.641);
     cursor: pointer;
+    font-size: 70px;
 }
 
 .skilllogo:active {
