@@ -297,6 +297,16 @@ header .navbar a:active {
     color: var(--green);
 }
 
+#sql{
+    height: 105px;
+    width: 105px;
+    transition: .5s;
+}
+
+#sql:active{
+    transform: translate3d(-900px, -900px, 50px);
+}
+
 /* project section */
 
 #calculator {
