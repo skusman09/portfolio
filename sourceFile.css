@@ -1,0 +1,124 @@
+/*.edit .section{*/
+/*margin: 0.5rem 0.5rem;*/
+/*padding: 0.5rem 0.5rem;*/
+/*}*/
+
+.edit .table {
+    margin: 0.5rem;
+    padding: 0.5rem;
+}
+
+.edit .container,
+.edit .container-fluid {
+    margin: auto;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+body {
+    min-height: 400px !important;
+    width: 100% !important;
+}
+
+.edit div:empty {
+    padding: 1rem;
+}
+
+.edit .row,
+.edit form,
+.edit .form-group {
+    margin: 0.5rem;
+    padding: 0.5rem;
+}
+
+.edit [class^="col"] {
+    padding: 0.5rem;
+}
+
+.edit .form-group,
+.edit .form-label-group {
+    padding: 0.6rem;
+}
+
+.edit ul {
+    padding: 0.5rem;
+}
+
+.edit li>* {
+    margin: 0.5em;
+}
+
+.edit a>span {
+    margin: 0.5em;
+}
+
+.edit .card,
+.edit .card-body,
+.edit .card-header,
+.edit .card-footer {
+    padding: 0.6rem;
+}
+
+.edit .draggable,
+.edit .resizable,
+.edit .gesturable {
+    -ms-touch-action: none;
+    touch-action: none;
+    user-select: none;
+}
+
+/*Gridlines*/
+.edit.grid header,
+.edit.grid footer,
+.edit.grid section,
+.edit.grid div,
+.edit.grid nav,
+.edit.grid p,
+.edit.grid h1,
+.edit.grid h2,
+.edit.grid h3,
+.edit.grid h4,
+.edit.grid h5,
+.edit.grid h6,
+.edit.grid a,
+.edit.grid li,
+.edit.grid ol,
+.edit.grid ul {
+    border: 1px dashed #ccc;
+}
+
+/*Disabled Div*/
+.edit [data-paraclete-disabled] {
+    pointer-events: none;
+    position: relative;
+}
+
+.edit [data-paraclete-disabled]::after:hover {
+    content: "Non-editable area";
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    padding-top: 5px;
+    font-weight: 600;
+    font-size: 14px;
+    text-align: center;
+    background: rgba(252, 252, 252, 0.8);
+    border: 1px dashed #999;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.parent-selector {
+    border: 1px dashed #12ff12;
+}
+
+.parent-drag-selector {
+    border: 1px solid #6ff61b;
+}
